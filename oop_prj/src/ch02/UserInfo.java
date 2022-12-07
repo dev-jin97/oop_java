@@ -1,4 +1,4 @@
-package ch01;
+package ch02;
 
 public class UserInfo {
     // TODO: 2022/12/06 회원 정보
