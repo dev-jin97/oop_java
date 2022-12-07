@@ -1,6 +1,6 @@
 package ch04;
 
-public class Main {
+public class StudentTest {
 
     public static void main(String[] args) {
         // TODO: 2022/12/07 OOP 가볍게 실습
@@ -23,6 +23,14 @@ public class Main {
         studentKim.setAddress("신당");
 
         studentKim.showStudentInfo();
+
+
+        /*
+        *  각각 Heap 영역에서 다른 주소값을 가지게 됨. 즉, heap 영역에서의 각각 다른 영역에 위치.
+        * */
+
+        System.out.println(studentLee);
+        System.out.println(studentKim);
 
     }
 }
