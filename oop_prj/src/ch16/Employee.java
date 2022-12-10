@@ -3,7 +3,7 @@ package ch16;
 public class Employee {
     // TODO: 2022/12/10 use a static
 
-    public static int serialNumber = 1000;
+    private static int serialNumber = 1000;
 
     private int employeeId;
     private String employeeName;
@@ -12,6 +12,10 @@ public class Employee {
     public Employee() {
         serialNumber++;
         this.employeeId =  serialNumber;
+    }
+
+    public static int getSerialNumber() {
+        return serialNumber;
     }
 
     public int getEmployeeId() {
