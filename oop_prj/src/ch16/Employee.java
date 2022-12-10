@@ -15,6 +15,10 @@ public class Employee {
     }
 
     public static int getSerialNumber() {
+        // static method
+
+        int i = 0;
+
         return serialNumber;
     }
 
