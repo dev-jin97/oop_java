@@ -1,4 +1,4 @@
-package c01;
+package com.dev_jin97.de.java.c01_1;
 
 public class CalculationTest {
     static class Calculation{
