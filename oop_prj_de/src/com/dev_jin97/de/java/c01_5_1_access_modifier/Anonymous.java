@@ -1,4 +1,4 @@
-package com.dev_jin97.de.java.c01_5_access_modifier;
+package com.dev_jin97.de.java.c01_5_1_access_modifier;
 
 public class Anonymous {
     public void call()  {
