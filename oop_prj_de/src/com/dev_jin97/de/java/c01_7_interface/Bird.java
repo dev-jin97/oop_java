@@ -15,7 +15,7 @@ public interface Bird {
     String getBreed();
 
     static void staticMethod(){
-        System.out.println("This is staticMethod.");
+        System.out.println("This is staticethod.");
 
     }
     abstract void abstractMethod();
