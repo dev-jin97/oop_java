@@ -30,8 +30,7 @@ public class Pigeon implements Bird, Pet {
     }
 
     @Override
-    public String getHome() {
+    public void getHome() {
         System.out.println("집으로 돌아왔습니다.");
-        return null;
     }
 }
