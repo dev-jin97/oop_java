@@ -1,10 +1,9 @@
-package com.dev_jin97.de.java.ch03_date_class;
+package com.dev_jin97.de.java.c03_date_class;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
-import java.time.temporal.TemporalAdjuster;
 import java.time.temporal.TemporalAdjusters;
 
 public class LocalDateExample {

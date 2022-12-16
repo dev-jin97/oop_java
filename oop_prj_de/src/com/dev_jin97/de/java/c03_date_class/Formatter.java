@@ -1,7 +1,6 @@
-package com.dev_jin97.de.java.ch03_date_class;
+package com.dev_jin97.de.java.c03_date_class;
 
 import java.time.LocalDateTime;
-import java.time.Month;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 import java.util.Locale;
